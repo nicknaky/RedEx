@@ -12,7 +12,7 @@ public class Oauth {
     public static final String OAUTH_DURATION = "permanent";
     public static final String OAUTH_SCOPE = "identity,edit,flair,history,mysubreddits,privatemessages,read,report,save,submit,subscribe,vote,wikiedit,wikiread";
 
-    public static String OAUTH_URL = "https://www.reddit.com/api/v1/authorize?client_id=" + OAUTH_CLIENTID +
+    public static String OAUTH_URL = "https://www.reddit.com/api/v1/authorize.compact?client_id=" + OAUTH_CLIENTID +
             "&response_type=" + OAUTH_RESPONSETYPE +
             "&state=" + OAUTH_STATE +
             "&redirect_uri=" + OAUTH_REDIRECTURI +
